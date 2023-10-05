@@ -1,0 +1,96 @@
+.logo{
+  font-size: 3em;
+  letter-spacing: 3px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: aliceblue;
+  padding: 10px 20px;
+  font-size: 20px;
+  position: relative;
+}
+.menu a:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  border-bottom: 2px solid rgb(188, 132, 132);
+  transition: 0.4s linear;
+  
+}
+.menu a:hover:before{
+  width: 90%;
+}
+.wishlist a{
+  text-decoration: none;
+  color: aliceblue;
+  padding: 10px 20px;
+  font-size: 20px;
+  background: rgb(153, 101, 101);
+  border-radius: 8px;
+  transition: 0.4s;
+}
+.wishlist a:hover{
+  background: transparent;
+  border: 1px solid rgb(153, 101, 101);
+
+}
+.cart a{
+  text-decoration: none;
+  color: aliceblue;
+  padding: 10px 20px;
+  font-size: 20px;
+  background:  rgb(153, 101, 101);
+  border-radius: 8px;
+  transition: 0.4s;
+}
+.cart a:hover{
+  background: transparent;
+  border: 1px solid rgb(153, 101, 101);
+
+}
+
+.h-txt{
+  max-width: 650px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: white;
+}
+.h-txt span{
+  letter-spacing: 5px;
+}
+.h-txt h1{
+  font-size: 3.5em;
+}
+.h-txt a{
+  text-decoration: none;
+  background-color:#d3ab9e ;
+  color: white;
+  padding: 10px 20px;
+  letter-spacing: 5px;
+  transition: 0.4s;
+}
+.h-txt a:hover{
+  background: transparent;
+  border: 1px solid rgb(153, 101, 101);
+}
+.bar{
+  display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Spacing between divs */
+    margin: 20px; /* Adjust margin as needed */
+    padding: 10px;
+}
+.wishlist,.cart {
+ 
+  padding: 10px; /* Adjust padding as needed */
+}
+
+
+
+
